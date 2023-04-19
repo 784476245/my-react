@@ -5,9 +5,105 @@ interface IProps {
 
 const Board: React.FC<IProps> = (props) => {
   return (
-    <div>
+    <>
+      <div>
+        Board
+      </div>
+      <div>
+        Board
+      </div>
+      <div>
+        Board
+      </div>
+      <div>
+        Board
+      </div>
+      <div>
+        Board
+      </div>
+      <div>
+        Board
+      </div>
+      <div>
+        Board
+      </div>
+      <div>
+        Board
+      </div>
+      <div>
+        Board
+      </div>
+      <div>
+        Board
+      </div>
+      <div>
+        Board
+      </div>      <div>
       Board
     </div>
+      <div>
+        Board
+      </div>
+      <div>
+        Board
+      </div>
+      <div>
+        Board
+      </div>
+      <div>
+        Board
+      </div>
+      <div>
+        Board
+      </div>
+      <div>
+        Board
+      </div>
+      <div>
+        Board
+      </div>
+      <div>
+        Board
+      </div>
+      <div>
+        Board
+      </div>
+      <div>
+        Board
+      </div>      <div>
+      Board
+    </div>
+      <div>
+        Board
+      </div>
+      <div>
+        Board
+      </div>
+      <div>
+        Board
+      </div>
+      <div>
+        Board
+      </div>
+      <div>
+        Board
+      </div>
+      <div>
+        Board
+      </div>
+      <div>
+        Board
+      </div>
+      <div>
+        Board
+      </div>
+      <div>
+        Board
+      </div>
+      <div>
+        Board
+      </div>
+    </>
   )
 }
 export default Board;
