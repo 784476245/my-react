@@ -38,11 +38,6 @@ const Board: React.FC<IProps> = (props) => {
       </div>
       <div>
         Board
-      </div>      <div>
-      Board
-    </div>
-      <div>
-        Board
       </div>
       <div>
         Board
@@ -70,9 +65,16 @@ const Board: React.FC<IProps> = (props) => {
       </div>
       <div>
         Board
-      </div>      <div>
-      Board
-    </div>
+      </div>
+      <div>
+        Board
+      </div>
+      <div>
+        Board
+      </div>
+      <div>
+        Board
+      </div>
       <div>
         Board
       </div>
