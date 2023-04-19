@@ -3,19 +3,19 @@ import {items} from "../router/router";
 import {Menu, MenuProps} from "antd";
 import {useNavigate} from "react-router-dom";
 import {useHistory} from "../utils/UseHistory";
+
 const siderStyle: React.CSSProperties = {
   textAlign: 'center',
   color: '#fff',
   backgroundColor: '#3ba0e9',
-  height: '100vh-128px', //todo  导航栏高度
-  overflowX: 'hidden',
   width: 256,
+
 };
 const SiderBar: React.FC = () => {
   const navigate = useNavigate();
   const history = useHistory();
-  useEffect(()=>{
-    const unListen = history.listen((location)=>{
+  useEffect(() => {
+    const unListen = history.listen((location) => {
       console.log(location);
       setSelectedKey(location.location.pathname);
     })

@@ -1,8 +1,7 @@
 import React from 'react';
 import './App.less';
-import {Outlet, useNavigate} from "react-router-dom";
-import {Layout, Menu, MenuProps} from "antd";
-import {items} from "./router/router";
+import {Outlet} from "react-router-dom";
+import {Layout} from "antd";
 import SiderBar from "./component/SiderBar";
 
 const {Header, Footer, Sider, Content} = Layout;
@@ -23,19 +22,18 @@ const siderStyle: React.CSSProperties = {
   textAlign: 'center',
   color: '#fff',
   backgroundColor: '#3ba0e9',
-  height: '100vh-128px', //todo  导航栏高度
-  overflowX: 'hidden',
   width: 256,
   position: 'fixed',
-  marginTop: 64
-
+  marginTop: 64,
+  marginBottom: 64,
+  height: '100%', // todo
 };
 
 const contentStyle: React.CSSProperties = {
   textAlign: 'center',
   color: '#fff',
   backgroundColor: '#108ee9',
-  height: '100%-128px', // todo 详情高度
+  height: 'calc(100vh - 128px)', // todo
   marginLeft: 256,
   marginTop: 64,
   marginBottom: 64
