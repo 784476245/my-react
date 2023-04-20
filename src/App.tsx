@@ -17,10 +17,10 @@ const headerStyle: React.CSSProperties = {
 };
 
 const siderStyle: React.CSSProperties = {
-  position: fixed;
-  left: 0;
-  top: 64px;
-  bottom: 64px;
+  position: 'fixed',
+  left: 0,
+  top: 64,
+  bottom: 64,
 };
 
 const contentStyle: React.CSSProperties = {

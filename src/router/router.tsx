@@ -1,5 +1,5 @@
 import React from "react";
-import {createBrowserRouter} from "react-router-dom";
+import {createBrowserRouter, Navigate} from "react-router-dom";
 import App from "../App";
 import Board from "../component/Board";
 import Article from "../component/Article";
@@ -19,6 +19,10 @@ const router = createBrowserRouter([
       {
           path: 'article',
           element: <Article />,
+      },
+      {
+        path: '*', // 路由重定向
+        element: <Navigate to={'/'} />,
       },
     ],
   },

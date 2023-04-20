@@ -7,8 +7,8 @@ import {useHistory} from "../utils/UseHistory";
 const siderStyle: React.CSSProperties = {
   width: 256,
   height: '100%',
-  overflowY: auto,
-  overflowX: hidden,
+  overflowY: 'auto',
+  overflowX: 'hidden',
 
 };
 const SiderBar: React.FC = () => {
