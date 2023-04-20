@@ -5,10 +5,10 @@ import {useNavigate} from "react-router-dom";
 import {useHistory} from "../utils/UseHistory";
 
 const siderStyle: React.CSSProperties = {
-  textAlign: 'center',
-  color: '#fff',
-  backgroundColor: '#3ba0e9',
   width: 256,
+  height: '100%',
+  overflowY: auto,
+  overflowX: hidden,
 
 };
 const SiderBar: React.FC = () => {
