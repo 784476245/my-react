@@ -10,8 +10,6 @@ const headerStyle: React.CSSProperties = {
   textAlign: 'center',
   color: '#fff',
   height: 64,
-  paddingInline: 50,
-  lineHeight: '64px',
   backgroundColor: '#7dbcea',
   width: '100%',
   top: 0,
@@ -19,24 +17,16 @@ const headerStyle: React.CSSProperties = {
 };
 
 const siderStyle: React.CSSProperties = {
-  textAlign: 'center',
-  color: '#fff',
-  backgroundColor: '#3ba0e9',
-  width: 256,
-  position: 'fixed',
-  marginTop: 64,
-  marginBottom: 64,
-  height: '100%', // todo
+  position: fixed;
+  left: 0;
+  top: 64px;
+  bottom: 64px;
 };
 
 const contentStyle: React.CSSProperties = {
-  textAlign: 'center',
-  color: '#fff',
-  backgroundColor: '#108ee9',
   height: 'calc(100vh - 128px)', // todo
   marginLeft: 256,
   marginTop: 64,
-  marginBottom: 64
 };
 
 
